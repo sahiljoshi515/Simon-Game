@@ -3,8 +3,34 @@ body {
   background-color: #011F3F;
 }
 
+.img {
+  width: 300px;
+  height: 300px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 
+.top {
+  text-align: center;
+}
 
+.middle {
+  font-size: 1.2rem;
+  padding: 20px 10px 20px 70px;;
+  text-align: left;
+}
+
+.bottom {
+  text-align: center;
+}
+
+#link {
+  font-size: 1.5rem;
+}
+
+#pgtitle {
+  text-align: center;
+}
 
 
 #level-title {
