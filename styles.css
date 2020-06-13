@@ -16,17 +16,15 @@ body {
 
 .middle {
   font-size: 1.2rem;
-  padding: 20px 10px 20px 70px;;
+  padding: 20px 70px 20px 70px;;
   text-align: left;
 }
 
 .bottom {
   text-align: center;
+
 }
 
-#link {
-  font-size: 1.5rem;
-}
 
 #pgtitle {
   text-align: center;
