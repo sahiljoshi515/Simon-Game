@@ -120,10 +120,10 @@ body {
 
 @media (max-width: 745px) {
   .btns {
-    margin: 10px;
+    margin: 5px;
     display: inline-block;
-    height: 105px;
-    width: 105px;
+    height: 140px;
+    width: 140px;
     border: 8px solid black;
     border-radius: 20%;
   }
@@ -132,7 +132,7 @@ body {
     border-radius: 10%;
     height: 50px;
     width: 80px;
-    margin: 20px 0 30px 0;
+    margin: 20px 0 230px 0;
   }
   #level-title {
     font-family: 'Press Start 2P', cursive;
@@ -143,10 +143,10 @@ body {
 
   @media (min-width: 500px) and (max-width: 600px)  {
     .btns {
-      margin: 10px;
+      margin: 1px;
       display: inline-block;
-      height: 80px;
-      width: 80px;
+      height: 120px;
+      width: 120px;
       border: 8px solid black;
       border-radius: 20%;
     }
@@ -155,7 +155,7 @@ body {
       border-radius: 10%;
       height: 50px;
       width: 80px;
-      margin: 20px 0 30px 0;
+      margin: 20px 0 200px 0;
     }
     #level-title {
       font-family: 'Press Start 2P', cursive;
