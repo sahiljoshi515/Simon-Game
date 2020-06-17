@@ -12,7 +12,7 @@ buttonColors = ["red", "blue", "green", "yellow"]
 
 
 //When any of the buttons is pressed
-$(".btn").click(function() {
+$(".btns").click(function() {
 
   var userChosenColor = $(this).attr("id");
   userClickedPattern.push(userChosenColor);
@@ -61,7 +61,7 @@ function animatePress(currentColor) {
 }
 
 
-$(document).keypress(function() {
+$(".start").click(function() {
   if (!started) {
     $("#level-title").text("Level " + level);
     nextSequence();
@@ -86,7 +86,7 @@ function checkAnswer(currentLevel) {
       setTimeout(function() {
         $("body").removeClass("game-over");
       }, 200);
-      $("#level-title").text("Game Over, Press Any Key to Restart!");
+      $("#level-title").text('Game Over, Press "Play" to start again!');
       startOver();
 
   }

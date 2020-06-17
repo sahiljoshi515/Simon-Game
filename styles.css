@@ -3,6 +3,13 @@ body {
   background-color: #011F3F;
 }
 
+.start {
+  text-align: center;
+  height: 50px;
+  width: 120px;
+  margin: 20px 0 30px 0;
+}
+
 .img {
   width: 300px;
   height: 300px;
@@ -38,18 +45,18 @@ body {
   color: #FEF2BF;
 }
 
-.container {
+.bcontainer {
   display: block;
   width: 50%;
   margin: auto;
 
 }
 
-.btn {
+.btns {
   margin: 25px;
   display: inline-block;
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 150px;
   border: 10px solid black;
   border-radius: 20%;
 }
@@ -84,4 +91,38 @@ body {
    font-family: 'Press Start 2P', cursive;
    color: white;
 
+}
+
+@media (max-width: 900px) {
+  .btns {
+    margin: 15px;
+    display: inline-block;
+    height: 130px;
+    width: 130px;
+    border: 10px solid black;
+    border-radius: 20%;
+  }
+  .start {
+    text-align: center;
+    height: 50px;
+    width: 80px;
+    margin: 20px 0 30px 0;
+  }
+}
+
+@media (max-width: 650px) {
+  .btns {
+    margin: 10px;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
+    border: 8px solid black;
+    border-radius: 20%;
+  }
+  .start {
+    text-align: center;
+    height: 50px;
+    width: 80px;
+    margin: 20px 0 30px 0;
+  }
 }
